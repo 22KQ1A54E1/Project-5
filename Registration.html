@@ -1,0 +1,68 @@
+
+<html>
+   <head>
+      <title> REGISTRATION FORM </title>
+   
+   </head>
+   <style>
+      .video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Place the video behind other content */
+    overflow: hidden;
+}
+
+.video-background video {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-size: cover;
+}
+   </style>
+     <body>
+      <button>
+         <a href="Navbar.html">Home</a>
+     </button>
+     <h1 align="Center">Nature with Time </h1>
+    <marquee direction="left">
+        <h2 align="Center">
+            <p >Registration</p> </h2>
+    </marquee>
+    <div class="video-background">
+        <video autoplay loop muted playsinline>
+            <source src="video1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+      <form action="Login.html" >
+         <h1  align="Center">
+            REGISTRATION FORM
+         </h1>
+         
+        <body background="C:\Users\JayaSri\Downloads\pexels-itfeelslikefilm-590471.jpg">       
+        <h2 align="Center">
+         user name:<input type="text" name="" required><br>
+        password:<input type="Password" name=" " required><br>
+        Gender:
+        <input type="radio" name="Gender" value="M">Male
+        <input type="radio" name="Gender" value="F">Female
+        <input type="radio" name="Gender" value="o">other<br>
+        Father name:<input type="text" name="" required><br>
+        Mother name:<input type="text" name="" required><br>
+        sibblings:
+        <input type="radio" name="count" vaule="y">yes
+        <input type="radio" name="count" value="n">no<br>
+        Gmail:<input type="text" name="text" required><br>
+        <input type="submit" value="submit">
+      </h2>  
+      </form>
+   </body>
+</html>
